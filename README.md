@@ -9,7 +9,7 @@ To use:
 
 ~~~~
 > install.packages("devtools")
-> devtools::install_bitbucket("gjwgit/graml") 
+> devtools::install_github("gjwgit/graml") 
 ~~~~
 
 Then try it out
