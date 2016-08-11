@@ -12,7 +12,7 @@ To use:
 > devtools::install_github("gjwgit/graml") 
 ~~~~
 
-Then try it out
+Then try it out (once the package is uploaded to the repo - stay tuned ....)
 
 ~~~~
 library(graml)
