@@ -21,7 +21,8 @@ library(magrittr)
 library(dplyr)
 library(randomForest)
 
-weather %>%
+model <-
+  weather %>%
   set_names(names(.) %>% normVarNames()) %>%
   select(-date, -location, -risk_mm) %>%
   train(formula(rain_tomrrow ~ .)) +
