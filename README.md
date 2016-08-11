@@ -23,7 +23,7 @@ library(randomForest)
 
 weather %>%
   set_names(names(.) %>% normVarNames()) %>%
-  select(-date, -location) %>%
+  select(-date, -location, -risk_mm) %>%
   train(formula(rain_tomrrow ~ .)) +
     data_partition(0.7, 0.3) +
     model_binary_classification(randomForest) %>%
