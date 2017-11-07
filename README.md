@@ -1,7 +1,7 @@
 # graml
 A grammar for machine learning in R
 
-As a Data Scientist we have available to us a grammar for preparing data (Hadley Wickham's tidyr package in R), a grammar for data wrangling (Hadley's dplyr package), and a grammar for graphics (developed by Leland Wilkinson with a premier implementation in R by Hadley Wickham called ggplot2). What about a grammar for machne learning?
+As a Data Scientist we have available to us a grammar for preparing data (Hadley Wickham's tidyr package in R), a grammar for data wrangling (Hadley's dplyr package), and a grammar for graphics (developed by Leland Wilkinson with a premier implementation in R by Hadley Wickham called ggplot2). What about a grammar for machine learning?
 
 This is an experimental test of the concept and not yet a useful package.
 
